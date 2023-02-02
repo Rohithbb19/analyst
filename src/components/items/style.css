@@ -1,0 +1,38 @@
+.open-enter {
+  height: 168px;
+}
+.open-enter-active {
+  height: 378px;
+  transition: height 300ms;
+}
+.open-enter-done {
+  height: 378px;
+}
+
+.open-exit {
+  height: 378px;
+}
+.open-exit-active {
+  height: 168px;
+  transition: height 300ms;
+}
+
+.open-detail-enter {
+  opacity: 0;
+  height: 0;
+}
+.open-detail-enter-active {
+  opacity: 1;
+  height: 210px;
+  transition: opacity 300ms, height 300ms;
+}
+
+.open-detail-exit {
+  opacity: 1;
+  height: 210px;
+}
+.open-detail-exit-active {
+  opacity: 0;
+  height: 0;
+  transition: opacity 300ms, height 300ms;
+}

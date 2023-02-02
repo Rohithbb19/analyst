@@ -1,0 +1,4 @@
+.selected{
+    color: red;
+    border-bottom: 2px red solid;
+}
